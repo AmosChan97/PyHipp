@@ -9,8 +9,8 @@
 #SBATCH -J "rsllfp"   # job name
 
 ## /SBATCH -p general # partition (queue)
-#SBATCH -o rsllfp-slurm.%N.%j.out # STDOUT
-#SBATCH -e rsllfp-slurm.%N.%j.err # STDERR
+#SBATCH -o rpllfp-slurm.%N.%j.out # STDOUT
+#SBATCH -e rpllfp-slurm.%N.%j.err # STDERR
 
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
 python -u -c "import PyHipp as pyh; \
